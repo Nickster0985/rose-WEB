@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { createRoot } from 'react-dom/client';
 
 // Change this to your IP!
-const API_BASE_URL = "http://YOUR_WHIPSBYTE_IP:5000";
+const API_BASE_URL = "http://85.215.220.246:11443/";
 
 const App = () => {
   const [stats, setStats] = useState({ totalScanned: 0, threatsDetected: 0 });
